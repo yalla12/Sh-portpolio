@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Expletus+Sans);
+
+/* Basic resets */
+
+* {
+    margin:0; padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px auto 0;
+    max-width: 80%;
+
+    font-family: "Expletus Sans", sans-serif;
+}
+
+
+h2 {
+    margin: 0 0 1.5em;
+    border-bottom: 1px solid #ccc;
+
+    padding: 0 0 .25em;
+}
