@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="assets/css/textarea.css"/>
 		<link rel="stylesheet" href="assets/css/project.css"/>
 		<link rel="stylesheet" href="assets/css/career.css"/>
+		<link rel="stylesheet" href="assets/css/education.css"/>
 	</head>
 	<body class="is-preload">
 
@@ -25,7 +26,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img width="300" src="images/figthing.png" alt="" /></span>
+							<span class="image avatar48"><img style="width:90px; height:100px; border-radius: 50%;" src="images/my.jpg" alt="" /></span>
 							<h1 id="title">Sunho Shin</h1>
 							<p>즐기면 성공한다!</p>
 						</div>
@@ -33,13 +34,13 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#skills" id="about-link1"><span class="icon solid fa-user">Tech Skills</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Project</span></a></li>
-								<li><a href="#Career" id="Career-link"><span class="icon solid fa-th">Career</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link1"><span class="icon solid fa-th">Education</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+								<li><a href="#top" id="top-link">Intro</a></li>
+								<li><a href="#about" id="about-link">About Me</a></li>
+								<li><a href="#skills" id="about-link1">Tech Skills</a></li>
+								<li><a href="#portfolio" id="portfolio-link">Project</a></li>
+								<li><a href="#Career" id="Career-link">Career</a></li>
+								<li><a href="#Education" id="Education-link1">Education</a></li>
+
 							</ul>
 						</nav>
 
@@ -216,58 +217,105 @@
 						</header>
 
 						<div class="comments">
-							<p class="career">네이버 클라우드 프로젝트 2021.04 ~ 2021.10
-								<br>-기술작업
-								<br>-기술작업
-								<br>-기술작업
-								<br>-기술작업
-								<br>-기술작업
-								<br>-기술작업
-								<br>-기술작업
-
-
+							<p class="career">KGC 방문 판매 시스템 2022.03 ~ 2022.5
+								<br> ※사용언어/기술
+								<br> - FrameWork : Nuri AF3 (회사 자체 프레임워크)
+								<br> - Language : Java, Javascript, JQuery, Jsp, Json, SQL
+								<br> - Tool : Eclipse, DBeaver, Source tree
+								<br> - DB : MySQL
+								<br> - 형상관리 : Github
+								<br>
+								<br> ※담당업무
+								<br> - 판매 예약 시스템 개발 지원
+								<br> - DB 성능 개선
 							</p>
-							<p class="career">This Is Paragraph Comment This Is Paragraph Comment This Is Paragraph Comment This Is Paragraph Comment This Is Paragraph Comment This Is Paragraph Comment </p>
-							</div>
 
+
+
+							<p class="career">네이버 클라우드 프로젝트 2021.04 ~ 2021.10
+								<br> ※사용언어/기술
+								<br> - FrameWork : Spring FrameWork
+								<br> - Language : Java, Javascript, JQuery, Jsp, Json, Vue.js, SQL
+								<br> - Tool : IntelliJ, MySQL Workbench, Source tree
+								<br> - DB : MySQL
+								<br> - 형상관리 : Github
+								<br>
+								<br> ※담당업무
+								<br>- 사용자의 데이터 저장의 편의성을 위한 엑셀 업로드 기능 구현
+								<br>- 영업 관리 개발 지원
+								<br>- 단위 테스트 및 통합 테스트
+								<br>- 사용자 메뉴얼 제작
+							</p>
+
+							<p class="career">목우촌 차세대 프로젝트 2020.11 ~ 2021.04
+								<br> ※사용언어/기술
+								<br> - FrameWork : 전자정부프레임워크(Spring)
+								<br> - Language : Java, Javascript, JQuery, Json, SQL
+								<br> - Tool : Eclipse, Nexacro, DBeaver
+								<br> - DB : Oracle
+								<br> - 형상관리 : SVN
+								<br>
+								<br> ※담당업무
+								<br>- 외식 사업 개발 지원
+								<br>- 물류/영업 사업 개발 지원
+								<br>- 단위 테스트 및 통합 테스트
+								<br>- 메뉴얼 제작
+							</p>
+						</div>
+					</div>
+
+				</section>
+
+				<section id="Education" class="two">
+					<div class="container">
+						<header>
+							<h2>Education</h2>
+						</header>
+
+						<input id="toggle" type="checkbox"  checked>
+						<label for="toggle">University</label>
+						<div id="expand">
+							<section>
+								<p>mew</p>
+							</section>
+						</div>
 
 
 
 					</div>
-
 
 				</section>
 
 
 
 				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
+<!--					<section id="contact" class="four">-->
+<!--						<div class="container">-->
 
-							<header>
-								<h2>Contact</h2>
-							</header>
+<!--							<header>-->
+<!--								<h2>Contact</h2>-->
+<!--							</header>-->
 
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+<!--							<p>Elementum sem parturient nulla quam placerat viverra-->
+<!--							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia-->
+<!--							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc-->
+<!--							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>-->
 
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
+<!--							<form method="post" action="#">-->
+<!--								<div class="row">-->
+<!--									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>-->
+<!--									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>-->
+<!--									<div class="col-12">-->
+<!--										<textarea name="message" placeholder="Message"></textarea>-->
+<!--									</div>-->
+<!--									<div class="col-12">-->
+<!--										<input type="submit" value="Send Message" />-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</form>-->
 
-						</div>
-					</section>
+<!--						</div>-->
+<!--					</section>-->
 
 			</div>
 
@@ -290,7 +338,8 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/project.js"></script>
-			<script src="assets/js/career.js"></script>
+			<script src="assets/js/education.js"></script>
+
 
 
 	</body>

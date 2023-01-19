@@ -2,13 +2,14 @@
     margin: 10% auto;
     width: 80%;
     border-left: 2px solid #CCC;
-    padding: 0 20px 0 30px
+    padding: 0 20px 0 30px;
+
 }
 
 .career {
     background-color: #FFF;
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: Tahoma, Arial;
     border: 1px solid #CCC;
     line-height: 1.7;
